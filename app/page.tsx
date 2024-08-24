@@ -12,7 +12,7 @@ export default function Home() {
       <SectionDivider/>
       <About/>
       <Projects/>
-      <SectionDivider/>
+      {/* <SectionDivider/> */}
       <Skills/>
       {/* <SectionDivider/> */}
       <Education/>

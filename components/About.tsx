@@ -15,8 +15,8 @@ const About = () => {
        id='about'
     >
         <SectionHeading>About Me</SectionHeading>
-        <p className='mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque enim illum sequi suscipit id maxime eligendi harum inventore, saepe ipsa. Aliquid ad iste nam doloremque cumque iure beatae, ipsum ducimus.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab sed facilis veritatis dolores, et minus fugit. Vitae fuga exercitationem ab eos aut maiores pariatur distinctio minus sunt ex, sit placeat</p>
+        <p className='mb-3'>I am a quick learner,I have great curiosity about the nature and also the nature of its existence.</p>
+        <p>I am interested in sports and reading,betterment of self is my only goal,I have seen positive changes in my self as i have started seeking answers to questions and also what is the right question to be asked.I believe in elevating consciousness and lighting inner darkness ultimately liberation  </p>
     </motion.section>
   )
 }

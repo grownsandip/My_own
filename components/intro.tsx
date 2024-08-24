@@ -24,8 +24,8 @@ const Intro = () => {
                 duration:0.2
             }}
             >
-            <Image src="/My_Pic.png" alt="my pic" width={150} height={150} quality={95} priority={true}
-            className='h-24 w-24 rounded-full border-[0.35rem] border-white shadow-xl'/>
+            <Image src="/MY_PIC.png" alt="my pic" width={150} height={150} quality={95} priority={true}
+            className='h-36 w-36 rounded-full border-none border-white shadow-xl'/>
             </motion.div>
         </div>
       </div>
@@ -33,11 +33,11 @@ const Intro = () => {
       initial={{opacity:0,y:100}}
       animate={{opacity:1,y:0}}
       >
-        <span className='font-bold'>Hell I am Sandip</span>I am a{" "}
-        <span className='bold'>A full stack developer</span>with {" "}
-        <span className='font-bold'>experience</span>I enjoy building
-        <span className='italic'>sites and apps</span>My focus is {" "}
-        <span className='underline'>info about tech stack</span>
+        <span className='font-bold'>Hello I am Sandip,</span> I am a{" "}
+        <span className='bold'>Computer Science student who is tech enthusiast,</span> with {" "}
+        <span className='font-bold'>experience.</span> I enjoy building
+        <span className='italic'> sites and apps</span> My focus is {" "}
+        <span className='underline'>to take myself to position where I possess the ability to make an idea into reality with help of Technology</span>
       </motion.p>
       <motion.div className='flex flex-col sm:flex-row items-center justify-center px-4 gap-2 text-lg font-medium'
        initial={{opacity:0,y:100}}

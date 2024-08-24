@@ -3,6 +3,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import realestate from "@/public/Home_page.png";
 import news from "@/public/Business_headlines.png";
 import chat from "@/public/front_page.png";
+import Vid from "@/public/Video.png";
+import Ch from "@/public/Chat_2.png";
 
 export const links = [
   {
@@ -37,7 +39,7 @@ export const educationData = [
     school:"ICFAI University",
     location: "Agartala,Tripura,India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am currently pursuing my Masters in Computer Application which gives me more insights about the fundamentals and enhances my knowledge about the subject more.Wth the Grade of 9.7 out of 10",
     icon: React.createElement(LuGraduationCap),
     date: "2023-present",
   },
@@ -46,7 +48,7 @@ export const educationData = [
     school:"Assam University",
     location: "Silchar,Assam",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I have completed my Bachelors in Computer Science,i have learnt about the basic working principles of computer.Operating system,Digital logic gates and digital circuit working and secured CGPA of 7.2 out of 10",
     icon: React.createElement(LuGraduationCap),
     date: "2018 - 2021",
   },
@@ -55,7 +57,7 @@ export const educationData = [
     school:"Golden Valley School",
     location: "Dharmanagar,Tripura",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I completed my Higher Secondary with PCM background Physics ,Chemistry and Mathematics,from TBSE board and had a percentage of 71%",
     icon: React.createElement(LuGraduationCap),
     date: "2010-2018",
   },
@@ -63,26 +65,42 @@ export const educationData = [
 
 export const projectsData = [
   {
+    title: "Video Calling App",
+    description:
+      "This app was developed using latest Nextjs14 and for learning and creating custom video calling app to understand the basic principles.",
+    tags: ["React", "NextJs", "TypeScript", "Tailwind","Stream.io","Clerk"],
+    imageUrl: Vid,
+    gitLink: 'https://github.com/grownsandip/next_app'
+  },
+  {
     title: "Real Estate",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "This project was developed with motive to elevate and make easy for realestate events.",
+    tags: ["React", "NodeJs", "MongoDB", "scss", "Prisma","Axios","Clerk"],
     imageUrl: realestate,
     gitLink: 'https://github.com/grownsandip/REAL_ESTATE_FULL_STACK'
   },
   {
     title: "AI chat",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "This app is developed for learning purpose,To learn using LLM for creating product.",
+    tags: ["React", "TypeScript", "Nodejs", "Tailwind", "GoogleAI","Gemini","MongoDB"],
     imageUrl: chat,
     gitLink: 'https://github.com/grownsandip/AI_chat'
-  }, 
+  },
+  {
+    title: "Chat App",
+    description:
+      "A simple  chat app that enables real time chat along with other features.",
+    tags: ["React", "Nodejs","css","HTML","javaScript","Socketio","firebase"],
+    imageUrl: Ch,
+    gitLink:'https://github.com/grownsandip/Chat_App'
+  },
   {
     title: "News App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A simple news app serves daily headlines on various topics and events worldwide ",
+    tags: ["React", "NewsAPI","Tailwind","HTML","javaScript","Docker"],
     imageUrl: news,
     gitLink:'https://github.com/grownsandip/newsapp'
   },
@@ -90,7 +108,7 @@ export const projectsData = [
 
 export const skillsData = [
   "C++",
-  "c",
+  "C",
   "OOPS",
   "HTML",
   "CSS",
