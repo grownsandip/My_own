@@ -54,7 +54,7 @@ const Intro = () => {
         Contact Me Here<BsArrowRight/>
         </Link>
 
-        <a className='bg-white px-7 py-3 flex items-center gap-2 rounded-full cursor-pointer outline-none focus:scale-110 hover:scale-110  active:scale-105 transition border border-black/10 dark:bg-white/10' href='/MY_RESUME.pdf' download={true}>DownLoad Resume<HiDownload/></a>
+        <a className='bg-white px-7 py-3 flex items-center gap-2 rounded-full cursor-pointer outline-none focus:scale-110 hover:scale-110  active:scale-105 transition border border-black/10 dark:bg-white/10' href='/MY_RESUME.pdf' download={true}>Download Resume<HiDownload/></a>
 
         <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full cursor-pointer outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition border border-black/10 dark:bg-white/10 dark:text-white/60' href='https://www.linkedin.com/in/sandip-roy-b3813524a' target='_blank'><BsLinkedin/></a>
 
