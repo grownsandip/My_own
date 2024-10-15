@@ -5,6 +5,7 @@ import news from "@/public/Business_headlines.png";
 import chat from "@/public/front_page.png";
 import Vid from "@/public/Video.png";
 import Ch from "@/public/Chat_2.png";
+import ui from "@/public/Ui.png";
 
 export const links = [
   {
@@ -64,6 +65,14 @@ export const educationData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Resume Builder",
+    description:
+      "An LLM based resume tailoring interface where resume gets tailored as per job description ",
+    tags: ["React", "groqAPI","Tailwind","HTML","javaScript","LLama 3.2"],
+    imageUrl: ui,
+    gitLink:'https://github.com/grownsandip/LLM_resume'
+  },
   {
     title: "Video Calling App",
     description:
