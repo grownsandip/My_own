@@ -6,6 +6,7 @@ import chat from "@/public/front_page.png";
 import Vid from "@/public/Video.png";
 import Ch from "@/public/Chat_2.png";
 import ui from "@/public/Ui.png";
+import dash from "@/public/dashboard.png";
 
 export const links = [
   {
@@ -65,6 +66,14 @@ export const educationData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Institute Dashboard",
+    description:
+      "A Modern Institute management app using nextjs with intuitive UI/UX ",
+    tags: ["TypeScript","React", "Nextjs","Prisma","Docker","Postgres","Clerk"],
+    imageUrl: dash,
+    gitLink:'https://github.com/grownsandip/dashboard_app'
+  },
   {
     title: "Resume Builder",
     description:
