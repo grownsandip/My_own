@@ -7,6 +7,7 @@ import Vid from "@/public/Video.png";
 import Ch from "@/public/Chat_2.png";
 import ui from "@/public/Ui.png";
 import dash from "@/public/dashboard.png";
+import flow from "@/public/FlowByte.png"
 
 export const links = [
   {
@@ -66,6 +67,14 @@ export const educationData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Flow App",
+    description:
+      "A drag and drop workflow creation website for web scrapping",
+    tags: ["TypeScript","Reactflow", "Nextjs","Prisma","sqlite","Clerk"],
+    imageUrl: flow,
+    gitLink:'https://github.com/grownsandip/Flow_app'
+  },
   {
     title: "Institute Dashboard",
     description:
